@@ -78,6 +78,8 @@ public class MyApp {
 
         new AjoutDeContact(maurice, germaineContact);
         new AjoutDeContact(maurice,otherContact);
+
+
         // faire une boucle pour recuperer l'ensemble des renseignements
         // pour cela creer un contact temporaire auquel on ajoute les donnees d'un contact
         // le pb vient de scanner qui type les variable recuperées ...
