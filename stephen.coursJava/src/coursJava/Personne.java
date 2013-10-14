@@ -9,20 +9,17 @@ public class Personne {
     public String prenom;
     public Adresse adresse;
     public String telephone;
-    public int id;
     public Vector <Contact> listeDesContact=new Vector<Contact>();
 
     /** CONSTRUCTEUR **/
 
-    public Personne(String lenom, String leprenom,int lenumero, String larue,int lecp,String laville,String letel,int lid){
+    public Personne(String lenom, String leprenom,String lenumero, String larue,String lecp,String laville,String letel){
         this.nom=lenom;
         this.prenom=leprenom;
         this.adresse=new Adresse(lenumero,larue,lecp,laville);
         this.telephone=letel;
-        this.id=lid;
     }
     public Personne(){
-
     }
 
     /** METHODES **/
@@ -40,6 +37,23 @@ public class Personne {
 
     }
 
+    public void printListOfContacts(){
+
+       System.out.println("**** CONTACTS ****");
+       for(int i=0; i<listeDesContact.size();i++)
+       {
+           System.out.println("** n° "+i+"**");
+           System.out.println("*nom: "+listeDesContact.get(i).getNom());
+           System.out.println("*prenom: "+listeDesContact.get(i).getPrenom());
+           System.out.println("*adresse: "+listeDesContact.get(i).adresse.getCompleteAdress());
+           System.out.println("*tel: "+listeDesContact.get(i).getTelephone());
+           System.out.println("*mail: "+listeDesContact.get(i).getEmail());
+           System.out.println("*groupe: "+listeDesContact.get(i).getGroupe());
+       }
+
+
+    }
+
     /** GETTERS **/
     public String getNom() {
         return nom;
@@ -54,11 +68,11 @@ public class Personne {
     public String getTelephone() {
         return telephone;
     }
-    public int getId() {
-        return id;
-    }
     public String getCompleteName() {
         return prenom+" "+nom;
+    }
+    public Vector<Contact> getListOfContact(){
+        return  listeDesContact;
     }
     public void setNom(String x){
         this.nom = x;
@@ -72,6 +86,7 @@ public class Personne {
     public void setTelephone(String x){
         this.telephone = x;
     }
+
 
 
 }

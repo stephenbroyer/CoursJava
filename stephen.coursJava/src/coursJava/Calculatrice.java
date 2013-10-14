@@ -8,8 +8,7 @@ public class Calculatrice
 
     /** CONSTRUCTEUR **/
 
-    public Calculatrice(int chiffre1, int chiffre2, char operateur)
-    {
+    public Calculatrice(int chiffre1, int chiffre2, char operateur) throws DivideZeroException {
 
 
         switch (operateur)
@@ -24,8 +23,9 @@ public class Calculatrice
                 operation=chiffre1*chiffre2;
                 break;
             case '/':
-                if (chiffre2!=0){operation=chiffre1/chiffre2;}
-                else{System.out.println("DIVISION PAR 0");}
+                TestDivisionZero t = new TestDivisionZero();
+                t.div(chiffre1,chiffre2);
+
                 break;
             default:
                 System.out.println("operateur inconnu");
