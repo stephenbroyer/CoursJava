@@ -4,14 +4,14 @@ import java.util.Vector;
 
 public class Personne {
 
-    /** ATTRIBUTS **/
+    /* ATTRIBUTS */
     public String nom;
     public String prenom;
     public Adresse adresse;
     public String telephone;
     public Vector <Contact> listeDesContact=new Vector<Contact>();
 
-    /** CONSTRUCTEUR **/
+    /* CONSTRUCTEUR */
 
     public Personne(String lenom, String leprenom,String lenumero, String larue,String lecp,String laville,String letel){
         this.nom=lenom;
@@ -22,7 +22,7 @@ public class Personne {
     public Personne(){
     }
 
-    /** METHODES **/
+    /* METHODES */
 
     public void addContact(Contact nouveauContact) {
 
@@ -54,7 +54,7 @@ public class Personne {
 
     }
 
-    /** GETTERS **/
+    /* GETTERS */
     public String getNom() {
         return nom;
     }

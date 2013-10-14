@@ -8,13 +8,24 @@ import org.xml.sax.helpers.XMLReaderFactory;
 
 public class SimpleSaxParser {
 
-    /** CONTRUCTEURS **/
+    /* CONTRUCTEURS */
+
+    /**
+     *
+     * @param uri
+     * @throws SAXException
+     * @throws IOException
+     */
     public SimpleSaxParser(String uri) throws SAXException, IOException {
         XMLReader saxReader = XMLReaderFactory.createXMLReader();
         saxReader.setContentHandler(new SimpleContentHandler());
         saxReader.parse(uri);
     }
 
+    /**
+     *
+     * @param args
+     */
     public static void main(String[] args) {
         if (0 == args.length || 2 < args.length) {
             System.out.println("Usage : SimpleSaxParser uri [parserClassName]");

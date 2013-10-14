@@ -5,12 +5,12 @@ import org.xml.sax.helpers.LocatorImpl;
 
 public class SimpleContentHandler implements ContentHandler {
 
-    /** CONSTRUCTEURS  **/
+    /* CONSTRUCTEURS */
     public SimpleContentHandler() {
         super();
         locator = new LocatorImpl();
     }
-    /** METHODES **/
+    /* METHODES */
     public void setDocumentLocator(Locator value) {
         locator =  value;
     }
@@ -27,7 +27,16 @@ public class SimpleContentHandler implements ContentHandler {
         System.out.println("Fin de traitement de l'espace de nommage : " + prefix);
     }
 
-    /** importantes !!!! **/
+    /* importantes !!!! */
+
+    /**
+     *
+     * @param nameSpaceURI
+     * @param localName
+     * @param rawName
+     * @param attributs
+     * @throws SAXException
+     */
     public void startElement(String nameSpaceURI, String localName, String rawName, Attributes attributs) throws SAXException {
         System.out.println("Ouverture de la balise : " + localName);
 
@@ -41,6 +50,14 @@ public class SimpleContentHandler implements ContentHandler {
             System.out.println("     - " +  attributs.getLocalName(index) + " = " + attributs.getValue(index));
         }
     }
+
+    /**
+     *
+     * @param nameSpaceURI
+     * @param localName
+     * @param rawName
+     * @throws SAXException
+     */
     public void endElement(String nameSpaceURI, String localName, String rawName) throws SAXException {
         System.out.print("Fermeture de la balise : " + localName);
 
@@ -51,17 +68,44 @@ public class SimpleContentHandler implements ContentHandler {
         System.out.println();
     }
 
-
+    /**
+     *
+     * @param ch
+     * @param start
+     * @param end
+     * @throws SAXException
+     */
     public void characters(char[] ch, int start, int end) throws SAXException {
         System.out.println("#PCDATA : " + new String(ch, start, end));
     }
+
+    /**
+     *
+     * @param ch
+     * @param start
+     * @param end
+     * @throws SAXException
+     */
     public void ignorableWhitespace(char[] ch, int start, int end) throws SAXException {
         System.out.println("espaces inutiles rencontres : ..." + new String(ch, start, end) +  "...");
     }
+
+    /**
+     *
+     * @param target
+     * @param data
+     * @throws SAXException
+     */
     public void processingInstruction(String target, String data) throws SAXException {
         System.out.println("Instruction de fonctionnement : " + target);
         System.out.println("  dont les arguments sont : " + data);
     }
+
+    /**
+     *
+     * @param arg0
+     * @throws SAXException
+     */
     public void skippedEntity(String arg0) throws SAXException {
     }
     private Locator locator;

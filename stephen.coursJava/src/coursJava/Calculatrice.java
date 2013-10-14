@@ -3,11 +3,18 @@ package coursJava;
 public class Calculatrice
 {
 
-    /** ATTRIBUTS **/
+    /* ATTRIBUTS */
+
     public int operation;
 
-    /** CONSTRUCTEUR **/
-
+    /* CONSTRUCTEUR */
+    /**
+     *
+     * @param chiffre1
+     * @param chiffre2
+     * @param operateur
+     * @throws DivideZeroException
+     */
     public Calculatrice(int chiffre1, int chiffre2, char operateur) throws DivideZeroException {
 
 

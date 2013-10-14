@@ -2,11 +2,18 @@ package coursJava;
 
 public class Adresse {
 
-    /** ATTRIBUTS **/
+    /* ATTRIBUTS */
     public String numero,rue,cp,ville;
 
-    /** CONSTRUCTEUR **/
+    /* CONSTRUCTEUR */
 
+    /**
+     *
+     * @param lenumero
+     * @param larue
+     * @param lecp
+     * @param laville
+     */
     public Adresse(String lenumero,String larue,String lecp,String laville){
 
         this.numero=lenumero;
@@ -17,7 +24,10 @@ public class Adresse {
     public Adresse(){};
 
     /** GETTERS **/
-
+    /**
+     *
+     * @return
+     */
     public String getNumero() {
         return numero;
     }
@@ -47,6 +57,14 @@ public class Adresse {
     public void setVille(String s){
         this.ville = s;
     }
+
+    /**
+     *
+     * @param lenum
+     * @param larue
+     * @param lecp
+     * @param laville
+     */
     public void setCompleteAddress(String lenum, String larue,String lecp, String laville){
         this.setNumero(lenum);
         this.setRue(larue);

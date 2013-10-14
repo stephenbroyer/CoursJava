@@ -2,12 +2,12 @@ package coursJava;
 
 public class Contact extends Personne
 {
-    /** ATTRIBUTS **/
+    /* ATTRIBUTS */
     public Personne personne;
     public String email;
     public String groupe;
 
-    /** CONSTRUCTEUR **/
+    /* CONSTRUCTEUR */
     public Contact(String lenom, String leprenom,String lenumero, String larue,String lecp,String laville,String letel, String unEmail, String unGroupe ){
         super(lenom, leprenom, lenumero,  larue, lecp, laville, letel);
         this.email=unEmail;
@@ -16,7 +16,7 @@ public class Contact extends Personne
     }
     public Contact(){}
 
-    /** GETTERS **/
+    /* GETTERS */
    public String getGroupe() {
         return groupe;
     }
