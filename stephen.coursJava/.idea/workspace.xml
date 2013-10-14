@@ -1,18 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="first commit">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/coursJava/AddContactWithScanner.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/coursJava/DivideZeroException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/myXmlParser/SimpleContentHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/myXmlParser/SimpleSaxParser.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/coursJava/TestDivisionZero.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/myXmlParser/test.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/coursJava/Adresse.java" afterPath="$PROJECT_DIR$/src/coursJava/Adresse.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/coursJava/Calculatrice.java" afterPath="$PROJECT_DIR$/src/coursJava/Calculatrice.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/coursJava/Contact.java" afterPath="$PROJECT_DIR$/src/coursJava/Contact.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/coursJava/MyApp.java" afterPath="$PROJECT_DIR$/src/coursJava/MyApp.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/coursJava/Personne.java" afterPath="$PROJECT_DIR$/src/coursJava/Personne.java" />
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
+      <change type="DELETED" beforePath="C:\Users\PortStephen\Documents\IUT\LicPro-DIM\sourcegit\CoursJava\stephen.coursJava\src\myXmlParser\test.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/myXmlParser/SimpleSaxParser.java" afterPath="$PROJECT_DIR$/src/myXmlParser/SimpleSaxParser.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="JavaFxApplication.iws" />
@@ -21,8 +12,8 @@
     <file path="/Controller.java" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1359381051202" ignored="false" />
     <file path="/sample.fxml" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1359381080865" ignored="false" />
     <file path="/MyApp.java" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1381741424501" ignored="false" />
-    <file path="/Dummy.txt" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1381735386845" ignored="false" />
-    <file path="/fragment.java" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1381743613038" ignored="false" />
+    <file path="/Dummy.txt" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1381743691130" ignored="false" />
+    <file path="/fragment.java" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1381744506808" ignored="false" />
     <file path="/a.dummy" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1381136451784" ignored="false" />
     <file path="/AjoutDeContact.java" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1381597639151" ignored="false" />
     <file path="/Adresse.java" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1381740500633" ignored="false" />
@@ -104,10 +95,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SimpleContentHandler.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="SimpleContentHandler.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/myXmlParser/SimpleContentHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="69" selection-start="883" selection-end="883" vertical-scroll-proportion="0.0">
+            <state line="25" column="69" selection-start="883" selection-end="883" vertical-scroll-proportion="-0.32185885">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -115,10 +106,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SimpleSaxParser.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="SimpleSaxParser.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/myXmlParser/SimpleSaxParser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="40" selection-start="842" selection-end="842" vertical-scroll-proportion="0.6017699">
+            <state line="22" column="65" selection-start="673" selection-end="674" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -127,9 +118,9 @@
         </entry>
       </file>
       <file leaf-file-name="test.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/myXmlParser/test.xml">
+        <entry file="file://$PROJECT_DIR$/test.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="30" selection-start="166" selection-end="166" vertical-scroll-proportion="0.0">
+            <state line="1" column="6" selection-start="46" selection-end="51" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -230,8 +221,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="width" value="1185" />
-    <option name="height" value="768" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="784" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -349,7 +342,24 @@
       <recent name="C:\Users\PortStephen\Documents\IUT\LicPro-DIM\sourcegit\CoursJava\stephen.coursJava\src\myXmlParser" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MyApp">
+  <component name="RunManager" selected="Application.SimpleSaxParser">
+    <configuration default="false" name="SimpleSaxParser" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="myXmlParser.SimpleSaxParser" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="test.xml" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="stephen.coursJava" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
@@ -479,9 +489,15 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <list size="1">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Application.MyApp" />
+      <item index="1" class="java.lang.String" itemvalue="Application.SimpleSaxParser" />
     </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Application.SimpleSaxParser" />
+      </list>
+    </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
       <Port>5050</Port>
@@ -524,15 +540,19 @@
       <created>1381597880496</created>
       <updated>1381597880496</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="first commit">
+      <created>1381743702231</created>
+      <updated>1381743702231</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="1302000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1185" height="768" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -547,8 +567,8 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2511131" sideWeight="0.6405229" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35947713" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25984848" sideWeight="0.1544586" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.8455414" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -602,7 +622,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="second commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -616,8 +636,8 @@
     <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
-    <MESSAGE value="first commit" />
     <MESSAGE value="second commit" />
+    <MESSAGE value="first commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -720,25 +740,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/myXmlParser/test.xml">
+    <entry file="file://$PROJECT_DIR$/test.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="30" selection-start="166" selection-end="166" vertical-scroll-proportion="0.0">
+        <state line="1" column="6" selection-start="46" selection-end="51" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/myXmlParser/SimpleContentHandler.java">
+    <entry file="file://$PROJECT_DIR$/src/myXmlParser/SimpleSaxParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="69" selection-start="883" selection-end="883" vertical-scroll-proportion="0.0">
+        <state line="22" column="65" selection-start="673" selection-end="674" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/myXmlParser/SimpleSaxParser.java">
+    <entry file="file://$PROJECT_DIR$/src/myXmlParser/SimpleContentHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="40" selection-start="842" selection-end="842" vertical-scroll-proportion="0.6017699">
+        <state line="25" column="69" selection-start="883" selection-end="883" vertical-scroll-proportion="-0.32185885">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

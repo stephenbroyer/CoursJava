@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="ISO-8859-1" ?>
-<tests>
-    <test id="1" nom="mon test"/>
-    <test id="2" nom="test 2" type="rien">Un peu de texte
-    </test>
-</tests>

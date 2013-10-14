@@ -10,7 +10,7 @@ public class SimpleSaxParser {
 
     /** CONTRUCTEURS **/
     public SimpleSaxParser(String uri) throws SAXException, IOException {
-        XMLReader saxReader = XMLReaderFactory.createXMLReader("org.apache.xerces.parsers.SAXParser");
+        XMLReader saxReader = XMLReaderFactory.createXMLReader();
         saxReader.setContentHandler(new SimpleContentHandler());
         saxReader.parse(uri);
     }
