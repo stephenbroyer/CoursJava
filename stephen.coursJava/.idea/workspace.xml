@@ -2,30 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/Calculatrice/CalculatriceTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Flickr/FlickrConnect.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Flickr/LoadImageApp.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="DELETED" beforePath="C:\Users\PortStephen\Documents\IUT\LicPro-DIM\sourcegit\CoursJava\stephen.coursJava\out\production\stephen.coursJava\coursJava\Adresse.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\PortStephen\Documents\IUT\LicPro-DIM\sourcegit\CoursJava\stephen.coursJava\out\production\stephen.coursJava\coursJava\AjoutDeContact.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\PortStephen\Documents\IUT\LicPro-DIM\sourcegit\CoursJava\stephen.coursJava\out\production\stephen.coursJava\coursJava\Calculatrice.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\PortStephen\Documents\IUT\LicPro-DIM\sourcegit\CoursJava\stephen.coursJava\out\production\stephen.coursJava\coursJava\Contact.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\PortStephen\Documents\IUT\LicPro-DIM\sourcegit\CoursJava\stephen.coursJava\out\production\stephen.coursJava\coursJava\MyApp.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\PortStephen\Documents\IUT\LicPro-DIM\sourcegit\CoursJava\stephen.coursJava\out\production\stephen.coursJava\coursJava\Personne.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\PortStephen\Documents\IUT\LicPro-DIM\sourcegit\CoursJava\stephen.coursJava\src\Calculatrice\Calculatrice.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\PortStephen\Documents\IUT\LicPro-DIM\sourcegit\CoursJava\stephen.coursJava\src\Calculatrice\TestDivisionZero.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\PortStephen\Documents\IUT\LicPro-DIM\sourcegit\CoursJava\stephen.coursJava\src\coursJava\AddContactWithScanner.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\PortStephen\Documents\IUT\LicPro-DIM\sourcegit\CoursJava\stephen.coursJava\src\coursJava\Adresse.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\PortStephen\Documents\IUT\LicPro-DIM\sourcegit\CoursJava\stephen.coursJava\src\coursJava\AjoutDeContact.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\PortStephen\Documents\IUT\LicPro-DIM\sourcegit\CoursJava\stephen.coursJava\src\coursJava\Contact.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\PortStephen\Documents\IUT\LicPro-DIM\sourcegit\CoursJava\stephen.coursJava\src\coursJava\DivideZeroException.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\PortStephen\Documents\IUT\LicPro-DIM\sourcegit\CoursJava\stephen.coursJava\src\coursJava\MyApp.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\PortStephen\Documents\IUT\LicPro-DIM\sourcegit\CoursJava\stephen.coursJava\src\coursJava\Personne.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\PortStephen\Documents\IUT\LicPro-DIM\sourcegit\CoursJava\stephen.coursJava\src\myXmlParser\SimpleContentHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\PortStephen\Documents\IUT\LicPro-DIM\sourcegit\CoursJava\stephen.coursJava\src\myXmlParser\SimpleSaxParser.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stephen.coursJava.iml" afterPath="$PROJECT_DIR$/stephen.coursJava.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Calculatrice/OperatorUnKnownException.java" />
+      <change type="DELETED" beforePath="C:\Users\PortStephen\Documents\IUT\LicPro-DIM\sourcegit\CoursJava\stephen.coursJava\src\coursJava\Calculatrice.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\PortStephen\Documents\IUT\LicPro-DIM\sourcegit\CoursJava\stephen.coursJava\src\coursJava\TestDivisionZero.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/Calculatrice/CalculatriceTest.java" afterPath="$PROJECT_DIR$/src/test/Calculatrice/CalculatriceTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Flickr/FlickrConnect.java" afterPath="$PROJECT_DIR$/src/main/java/Flickr/FlickrConnect.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Flickr/LoadImageApp.java" afterPath="$PROJECT_DIR$/src/main/java/Flickr/LoadImageApp.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="JavaFxApplication.iws" />
@@ -34,8 +16,8 @@
     <file path="/Controller.java" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1359381051202" ignored="false" />
     <file path="/sample.fxml" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1359381080865" ignored="false" />
     <file path="/MyApp.java" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1381741424501" ignored="false" />
-    <file path="/Dummy.txt" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1381826993769" ignored="false" />
-    <file path="/fragment.java" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1381827271594" ignored="false" />
+    <file path="/Dummy.txt" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1383300282806" ignored="false" />
+    <file path="/fragment.java" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1383300282806" ignored="false" />
     <file path="/a.dummy" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1381136451784" ignored="false" />
     <file path="/AjoutDeContact.java" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1381597639151" ignored="false" />
     <file path="/Adresse.java" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1381745914910" ignored="false" />
@@ -43,17 +25,18 @@
     <file path="/Contact.java" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1381740676563" ignored="false" />
     <file path="/DivideZeroException.java" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1381821728978" ignored="false" />
     <file path="/TestDivisionZero.java" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1381822718871" ignored="false" />
-    <file path="/Calculatrice.java" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1381827592668" ignored="false" />
+    <file path="/Calculatrice.java" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1383300102803" ignored="false" />
     <file path="/AddContactWithScanner.java" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1381741320192" ignored="false" />
     <file path="/PhoneBook.java" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1381741767208" ignored="false" />
-    <file path="/SimpleContentHandler.java" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1381832888875" ignored="false" />
-    <file path="/SimpleSaxParser.java" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1381743274718" ignored="false" />
+    <file path="/SimpleContentHandler.java" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1381856095937" ignored="false" />
+    <file path="/SimpleSaxParser.java" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1381856181154" ignored="false" />
     <file path="/CalcTest.java" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1381823588349" ignored="false" />
     <file path="/CalculatriceTest.groovy" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1381823873062" ignored="false" />
-    <file path="/CalculatriceTest.java" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1381827528396" ignored="false" />
+    <file path="/CalculatriceTest.java" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1383299115809" ignored="false" />
     <file path="/a.java" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1381825819738" ignored="false" />
-    <file path="/FlickrConnect.java" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1381832621789" ignored="false" />
+    <file path="/FlickrConnect.java" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1381857485891" ignored="false" />
     <file path="/LoadImageApp.java" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1381831167222" ignored="false" />
+    <file path="/OperatorUnKnownException.java" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1383299993849" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,28 +97,30 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="flickr.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/flickr.xml">
+      <file leaf-file-name="CalculatriceTest.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/Calculatrice/CalculatriceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="78" selection-start="78" selection-end="78" vertical-scroll-proportion="0.0">
+            <state line="22" column="52" selection-start="447" selection-end="447" vertical-scroll-proportion="0.31903484">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Calculatrice.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Calculatrice/Calculatrice.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="63" column="66" selection-start="1827" selection-end="1827" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SimpleContentHandler.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/myXmlParser/SimpleContentHandler.java">
+      <file leaf-file-name="OperatorUnKnownException.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Calculatrice/OperatorUnKnownException.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="37" selection-start="1771" selection-end="1771" vertical-scroll-proportion="0.75555557">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SimpleSaxParser.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/myXmlParser/SimpleSaxParser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="62" selection-start="488" selection-end="514" vertical-scroll-proportion="0.0">
+            <state line="18" column="30" selection-start="402" selection-end="402" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -144,21 +129,26 @@
       <file leaf-file-name="FlickrConnect.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Flickr/FlickrConnect.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="57" selection-start="1378" selection-end="1378" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="21" column="13" selection-start="450" selection-end="450" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoadImageApp.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Flickr/LoadImageApp.java">
+      <file leaf-file-name="DivideZeroException.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Calculatrice/DivideZeroException.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="10" selection-start="1236" selection-end="1236" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="22" column="46" selection-start="214" selection-end="425" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestDivisionZero.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Calculatrice/TestDivisionZero.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="13" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -181,7 +171,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/myXmlParser/wait" />
         <option value="$PROJECT_DIR$/src/Calculatrice/DivideZeroException.java" />
         <option value="$PROJECT_DIR$/src/Calculatrice/Calculatrice.java" />
         <option value="$PROJECT_DIR$/src/Calculatrice/TestDivisionZero.java" />
@@ -191,19 +180,22 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/Calculatrice/CalculatriceTest.groovy" />
         <option value="$PROJECT_DIR$/src/main/java/TryUnitTest/CalcTest.java" />
-        <option value="$PROJECT_DIR$/src/test/Calculatrice/CalculatriceTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Calculatrice/Calculatrice.java" />
         <option value="$PROJECT_DIR$/src/main/java/myXmlParser/SimpleSaxParser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/myXmlParser/SimpleContentHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/Flickr/LoadImageApp.java" />
         <option value="$PROJECT_DIR$/src/main/java/Flickr/FlickrConnect.java" />
-        <option value="$PROJECT_DIR$/src/main/java/myXmlParser/SimpleContentHandler.java" />
+        <option value="$PROJECT_DIR$/src/test/Calculatrice/CalculatriceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Calculatrice/OperatorUnKnownException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Calculatrice/Calculatrice.java" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="width" value="1235" />
-    <option name="height" value="768" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="784" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -228,12 +220,11 @@
       <showLibraryContents />
       <hideEmptyPackages />
       <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
+      <autoscrollToSource ProjectPane="true" />
+      <autoscrollFromSource ProjectPane="true" />
+      <sortByType ProjectPane="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -442,6 +433,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -479,24 +471,7 @@
       <recent name="C:\Users\PortStephen\Documents\IUT\LicPro-DIM\sourcegit\CoursJava\stephen.coursJava\src\myXmlParser" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FlickrConnect">
-    <configuration default="false" name="SimpleSaxParser" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="myXmlParser.SimpleSaxParser" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="test.xml" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" value="" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="stephen.coursJava" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.CalculatriceTest">
     <configuration default="false" name="Calculatrice" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="Calculatrice.Calculatrice" />
@@ -514,12 +489,29 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="Calculatrice in stephen.coursJava" type="JUnit" factoryName="JUnit" editBeforeRun="true" temporary="true">
+    <configuration default="false" name="FlickrConnect" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="Flickr.FlickrConnect" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="stephen.coursJava" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="coursJava in stephen.coursJava" type="JUnit" factoryName="JUnit" editBeforeRun="true" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="stephen.coursJava" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" value="" />
-      <option name="PACKAGE_NAME" value="Calculatrice" />
+      <option name="PACKAGE_NAME" value="coursJava" />
       <option name="MAIN_CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
@@ -538,19 +530,50 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="FlickrConnect" type="Application" factoryName="Application" temporary="true">
+    <configuration default="false" name="CalculatriceTest" type="JUnit" factoryName="JUnit" editBeforeRun="true" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="Flickr.FlickrConnect" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <module name="stephen.coursJava" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" value="" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="PACKAGE_NAME" value="Calculatrice" />
+      <option name="MAIN_CLASS_NAME" value="Calculatrice.CalculatriceTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="stephen.coursJava" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
       <envs />
+      <fork_mode value="method" />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="CalculatriceTest.TestCalc" type="JUnit" factoryName="JUnit" editBeforeRun="true" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="stephen.coursJava" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="PACKAGE_NAME" value="Calculatrice" />
+      <option name="MAIN_CLASS_NAME" value="Calculatrice.CalculatriceTest" />
+      <option name="METHOD_NAME" value="TestCalc" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <fork_mode value="method" />
+      <patterns />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
@@ -685,19 +708,21 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <list size="5">
+    <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Application.MyApp" />
-      <item index="1" class="java.lang.String" itemvalue="Application.SimpleSaxParser" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Calculatrice" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.Calculatrice in stephen.coursJava" />
-      <item index="4" class="java.lang.String" itemvalue="Application.FlickrConnect" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Calculatrice" />
+      <item index="2" class="java.lang.String" itemvalue="Application.FlickrConnect" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.coursJava in stephen.coursJava" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.CalculatriceTest" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.CalculatriceTest.TestCalc" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Application.FlickrConnect" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.Calculatrice in stephen.coursJava" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Calculatrice" />
-        <item index="3" class="java.lang.String" itemvalue="Application.SimpleSaxParser" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.CalculatriceTest" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Calculatrice" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.CalculatriceTest.TestCalc" />
+        <item index="3" class="java.lang.String" itemvalue="Application.FlickrConnect" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.coursJava in stephen.coursJava" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -754,14 +779,18 @@
       <created>1381746084986</created>
       <updated>1381746084986</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Beginning of Flickr, have to get attributes of xlm file">
+      <created>1381833060317</created>
+      <updated>1381833060317</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="1302000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1235" height="768" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -772,13 +801,13 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35251215" sideWeight="0.65686274" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34477124" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34394905" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28132993" sideWeight="0.6519608" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3480392" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3090909" sideWeight="0.6687898" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3312102" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -832,7 +861,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="last Commit of the day" />
+    <option name="LAST_COMMIT_MESSAGE" value="Beginning of Flickr, have to get attributes of xlm file" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -849,6 +878,7 @@
     <MESSAGE value="second commit" />
     <MESSAGE value="first commit" />
     <MESSAGE value="last Commit of the day" />
+    <MESSAGE value="Beginning of Flickr, have to get attributes of xlm file" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -858,81 +888,29 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/coursJava/Personne.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="17" selection-start="88" selection-end="88" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/coursJava/Contact.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="15" selection-start="516" selection-end="516" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/coursJava/Adresse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="6" selection-start="1140" selection-end="1140" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="61" column="6" selection-start="1140" selection-end="1140" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/coursJava/MyApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="870" selection-end="870" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/coursJava/AddContactWithScanner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="40" selection-start="282" selection-end="282" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Calculatrice/TestDivisionZero.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="15" selection-start="287" selection-end="287" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="25" column="0" selection-start="870" selection-end="870" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="20" selection-start="315" selection-end="322" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Calculatrice/DivideZeroException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="5" selection-start="424" selection-end="424" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="6" column="20" selection-start="315" selection-end="322" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/stephen.coursJava.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="804" selection-end="804" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="12" column="0" selection-start="804" selection-end="804" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/Calculatrice/CalculatriceTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Flickr/LoadImageApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="17" selection-start="610" selection-end="610" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Calculatrice/Calculatrice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="427" selection-end="427" vertical-scroll-proportion="0.23529412">
+        <state line="44" column="13" selection-start="1278" selection-end="1278" vertical-scroll-proportion="0.5641026">
           <folding />
         </state>
       </provider>
@@ -946,33 +924,73 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/myXmlParser/SimpleSaxParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="62" selection-start="488" selection-end="514" vertical-scroll-proportion="0.0">
+        <state line="26" column="0" selection-start="715" selection-end="715" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Flickr/LoadImageApp.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/coursJava/AjoutDeContact.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="10" selection-start="1236" selection-end="1236" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="6" column="13" selection-start="103" selection-end="103" vertical-scroll-proportion="0.06538462">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Flickr/FlickrConnect.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/coursJava/AddContactWithScanner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="57" selection-start="1378" selection-end="1378" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="19" column="29" selection-start="401" selection-end="503" vertical-scroll-proportion="0.062271062">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/myXmlParser/SimpleContentHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="37" selection-start="1771" selection-end="1771" vertical-scroll-proportion="0.75555557">
+        <state line="123" column="3" selection-start="3728" selection-end="3728" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Calculatrice/TestDivisionZero.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="13" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Calculatrice/DivideZeroException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="46" selection-start="214" selection-end="425" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Calculatrice/OperatorUnKnownException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="30" selection-start="402" selection-end="402" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Calculatrice/Calculatrice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="66" selection-start="1827" selection-end="1827" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Flickr/FlickrConnect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="13" selection-start="450" selection-end="450" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/Calculatrice/CalculatriceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="52" selection-start="447" selection-end="447" vertical-scroll-proportion="0.31903484">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

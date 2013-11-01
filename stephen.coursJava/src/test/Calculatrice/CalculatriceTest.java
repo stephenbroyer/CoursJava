@@ -27,7 +27,9 @@ public class CalculatriceTest {
 
     @Test
     public void TestCalc() throws Exception {
-       //Assert.assertTrue(myC.doCalc(5,4,"+")==9);
+        int intVerification =  myC.doCalc(5,4,'+');
+        int intHoped = 9;
+        Assert.assertTrue(intVerification == intHoped);
 
     }
 }
