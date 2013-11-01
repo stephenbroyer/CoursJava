@@ -18,7 +18,8 @@ public class LoadImageApp extends Component {
         try {
             URL url = new URL("http://static.flickr.com/"+server+"/"+id+"_"+secret+".jpg");
             img = ImageIO.read(url);
-        } catch (IOException e) {
+        }
+        catch (IOException e) {
             e.printStackTrace();
         }
     }
@@ -30,6 +31,7 @@ public class LoadImageApp extends Component {
             return new Dimension(img.getWidth(null), img.getHeight(null));
         }
     }
+    /*
     public static void main(String[] args) {
         JFrame f = new JFrame("Load Image Sample");
         f.addWindowListener(new WindowAdapter(){
@@ -37,8 +39,8 @@ public class LoadImageApp extends Component {
                 System.exit(0);
             }
         });
-        //f.add(new LoadImageApp());
-        //f.pack();
-        //f.setVisible(true);
-    }
+        f.add(new LoadImageApp());
+        f.pack();
+        f.setVisible(true);
+    }      */
 }

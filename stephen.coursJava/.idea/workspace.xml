@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Calculatrice/OperatorUnKnownException.java" />
-      <change type="DELETED" beforePath="C:\Users\PortStephen\Documents\IUT\LicPro-DIM\sourcegit\CoursJava\stephen.coursJava\src\coursJava\Calculatrice.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\PortStephen\Documents\IUT\LicPro-DIM\sourcegit\CoursJava\stephen.coursJava\src\coursJava\TestDivisionZero.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/Calculatrice/CalculatriceTest.java" afterPath="$PROJECT_DIR$/src/test/Calculatrice/CalculatriceTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Flickr/FlickrConnect.java" afterPath="$PROJECT_DIR$/src/main/java/Flickr/FlickrConnect.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Flickr/LoadImageApp.java" afterPath="$PROJECT_DIR$/src/main/java/Flickr/LoadImageApp.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -16,7 +12,7 @@
     <file path="/Controller.java" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1359381051202" ignored="false" />
     <file path="/sample.fxml" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1359381080865" ignored="false" />
     <file path="/MyApp.java" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1381741424501" ignored="false" />
-    <file path="/Dummy.txt" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1383300282806" ignored="false" />
+    <file path="/Dummy.txt" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1383300334278" ignored="false" />
     <file path="/fragment.java" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1383300282806" ignored="false" />
     <file path="/a.dummy" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1381136451784" ignored="false" />
     <file path="/AjoutDeContact.java" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1381597639151" ignored="false" />
@@ -783,7 +779,11 @@
       <created>1381833060317</created>
       <updated>1381833060317</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Correction Calculatrice pour que TestCalculatrice fonctionne">
+      <created>1383300359513</created>
+      <updated>1383300359513</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -861,7 +861,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Beginning of Flickr, have to get attributes of xlm file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Correction Calculatrice pour que TestCalculatrice fonctionne" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -879,6 +879,7 @@
     <MESSAGE value="first commit" />
     <MESSAGE value="last Commit of the day" />
     <MESSAGE value="Beginning of Flickr, have to get attributes of xlm file" />
+    <MESSAGE value="Correction Calculatrice pour que TestCalculatrice fonctionne" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
