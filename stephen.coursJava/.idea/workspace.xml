@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="Where are differences">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/coursJava/AddContactWithScanner.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/coursJava/Adresse.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/coursJava/AjoutDeContact.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/coursJava/Contact.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/coursJava/MyApp.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/coursJava/Personne.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="JavaFxApplication.iws" />
@@ -9,8 +15,8 @@
     <file path="/Main.java" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1359379373495" ignored="false" />
     <file path="/Controller.java" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1359381051202" ignored="false" />
     <file path="/sample.fxml" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1359381080865" ignored="false" />
-    <file path="/MyApp.java" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1383306698543" ignored="false" />
-    <file path="/Dummy.txt" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1383306875272" ignored="false" />
+    <file path="/MyApp.java" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1383306948524" ignored="false" />
+    <file path="/Dummy.txt" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1383306951500" ignored="false" />
     <file path="/fragment.java" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1383300282806" ignored="false" />
     <file path="/a.dummy" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1381136451784" ignored="false" />
     <file path="/AjoutDeContact.java" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1381597639151" ignored="false" />
@@ -94,7 +100,7 @@
       <file leaf-file-name="MyApp.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/coursJava/MyApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="83" selection-start="986" selection-end="986" vertical-scroll-proportion="0.22862129">
+            <state line="39" column="9" selection-start="1396" selection-end="1396" vertical-scroll-proportion="0.5452899">
               <folding />
             </state>
           </provider>
@@ -781,7 +787,11 @@
       <created>1383300430735</created>
       <updated>1383300430735</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Where are differences">
+      <created>1383306912659</created>
+      <updated>1383306912659</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -804,7 +814,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17395264" sideWeight="0.96405226" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28142077" sideWeight="0.96405226" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.0" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -859,7 +869,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="End of flickr picture" />
+    <option name="LAST_COMMIT_MESSAGE" value="Where are differences" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -879,6 +889,7 @@
     <MESSAGE value="Beginning of Flickr, have to get attributes of xlm file" />
     <MESSAGE value="Correction Calculatrice pour que TestCalculatrice fonctionne" />
     <MESSAGE value="End of flickr picture" />
+    <MESSAGE value="Where are differences" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -997,7 +1008,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/coursJava/MyApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="83" selection-start="986" selection-end="986" vertical-scroll-proportion="0.22862129">
+        <state line="39" column="9" selection-start="1396" selection-end="1396" vertical-scroll-proportion="0.5452899">
           <folding />
         </state>
       </provider>
