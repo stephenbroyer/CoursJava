@@ -62,7 +62,7 @@ public class GeoReader implements ContentHandler {
 	/**
 	 * Debut de traitement dans un espace de nommage.
 	 * 
-	 * @param prefixe
+	 * @param prefix
 	 *            utilise pour cet espace de nommage dans cette partie de
 	 *            l'arborescence.
 	 * @param URI
@@ -77,7 +77,7 @@ public class GeoReader implements ContentHandler {
 	/**
 	 * Fin de traitement de l'espace de nommage.
 	 * 
-	 * @param prefixe
+	 * @param prefix
 	 *            le prefixe choisi a l'ouverture du traitement de l'espace
 	 *            nommage.
 	 * @see org.xml.sax.ContentHandler#endPrefixMapping(String)
