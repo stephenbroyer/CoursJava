@@ -48,7 +48,7 @@ public class TwitterConnect {
     /* CONSTRUCTEUR */
     public TwitterConnect(String myURL) {
         Authentication app = getConnectionData("app.xml");
-        connect();
+        mongoConnect();
         request = connect(app,myURL);
         retrieve(request);
     }
@@ -56,7 +56,7 @@ public class TwitterConnect {
     public DBObject returnDatasGetted(){
             return datasGetted;
         }
-    private void connect() {
+    private void mongoConnect() {
         try {   m = new Mongo( Configuration.mongo_location , Configuration.mongo_port );
                 db = m.getDB(Configuration.mongo_database);
         } catch (Exception e) {e.printStackTrace(); }
