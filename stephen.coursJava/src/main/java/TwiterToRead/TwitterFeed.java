@@ -38,66 +38,41 @@ import com.mongodb.util.JSON;
 import teatcherXMLParser.Authentication;
 
 public class TwitterFeed {
-/* ATTRIBUTS */
+    /* ATTRIBUTS */
 	private HttpGet request = null;
 	private int number = 0;
-    //MongoDB connection
-	private DB db = null;
-    //MongoDB server
-	private Mongo m = null;
+	private DB db = null;//MongoDB connection
+	private Mongo m = null; //MongoDB server
     private Vector <String> myVector = new Vector<String>();
     private String tempo;
 
-
-/* CONSTRUCTEUR */
+    /* CONSTRUCTEUR */
 	public TwitterFeed() {
 		Authentication app = getConnectionData("app.xml");
 		connect();
 		request = connect(app);
         retrieve(request);
-        printMyVector(myVector);
+        //printMyVector(myVector);
 	}
 
-/* METHODES */
-	/**
-	 * The connection method connects to the MongoDB database
-	 */
-	private void connect() {
+    /* METHODES */
+    private void connect() {
 		try {
 			m = new Mongo( Configuration.mongo_location , Configuration.mongo_port );
 			db = m.getDB(Configuration.mongo_database);
-		} //try
-		catch (Exception e) {
-			e.printStackTrace();
-
-		} //catch
-
-	} //connect
-
-	/**
-	 * The retrieve method is responsible to read the content from the stream
-	 * and to provide to consumers
-	 * 
-	 * @param request
-	 *            the request to access the stream
-	 */
+		} catch (Exception e) {e.printStackTrace();}
+	}
 	private void retrieve(HttpGet request) {
-
 		String in;
 		try {
-
 			HttpClient client = new DefaultHttpClient();
 			HttpResponse response = client.execute(request);
 			HttpEntity entity = response.getEntity();
+
 			if (entity != null) {
-
 				InputStream inputStream = entity.getContent();
-				BufferedReader reader = new BufferedReader(
-						new InputStreamReader(inputStream));
+				BufferedReader reader = new BufferedReader(new InputStreamReader(inputStream));
 
-				// since this is a continuous stream, there is no end with the
-				// readLine, we just check whether live boolean variable is set
-				// to false
 				while ((in = reader.readLine()) != null) {
 					number++;
 					//store the JSON result in MongoDB
@@ -108,40 +83,24 @@ public class TwitterFeed {
 
 					//insert into the database
 					collection.insert(dbObject);
-                    System.out.println("**********************************************************");
+
+                    // affiche resultat
                     System.out.println(in);
 
+                    // stockage dans un Vector
                     tempo = (String) dbObject.get("text");
                     myVector.add(tempo);
 
                     if(number == 100){
 						System.exit(0);
                     }
-
-				} // while
-
-			} // if
-
-		} // try
-		catch (Exception e) {
-
-			e.printStackTrace();
-
-		} // catch
-
-	} // retrieve()
-	
-	/**
-	 * getConnectionData retrieves the data for the authentication
-	 * @param stFile the file containing the data for the OAuth authentication
-	 * @return an instance of Authentication containing the data
-	 */
+				}
+			}
+		}catch (Exception e) {e.printStackTrace();}
+	}
 	private Authentication getConnectionData(String stFile) {
-	
 		Authentication sr = null;
-		
 		try {
-			
 			//open the file and parse it to retrieve the four required information
 			File file = new File(stFile);
 			InputStream inputStream;
@@ -156,90 +115,42 @@ public class TwitterFeed {
 			saxReader.setContentHandler(sr);
 			saxReader.parse(is);
 			
-		} //try
-		catch (FileNotFoundException e) {
-
-			e.printStackTrace();
-
-		} // catch
-		
-		catch (UnsupportedEncodingException e) {
-
-			e.printStackTrace();
-
-		} // catch
-		
-		catch (SAXException e) {
-
-			e.printStackTrace();
-
-		} // catch
-		
-		catch (IOException e) {
-
-			e.printStackTrace();
-
-		} // catch
+		}catch (FileNotFoundException e) { e.printStackTrace();}
+		catch (UnsupportedEncodingException e) {e.printStackTrace();}
+		catch (SAXException e){e.printStackTrace();}
+        catch (IOException e) {e.printStackTrace();}
 
 		return sr;
-		
-	} //getConnectionData()
-	
-	/**
-	 * The connect method connects to the stream via OAuth
-	 * 
-	 * @param app
-	 *            the data for connection
-	 * @return the request
-	 */
+	}
 	private HttpGet connect(Authentication app) {
-
-		OAuthConsumer consumer = new CommonsHttpOAuthConsumer(
-				app.getConsumerKey(), app.getConsumerSecret());
-
+		OAuthConsumer consumer = new CommonsHttpOAuthConsumer(app.getConsumerKey(), app.getConsumerSecret());
 		consumer.setTokenWithSecret(app.getAccessToken(), app.getAccessSecret());
 		HttpGet request = new HttpGet("https://stream.twitter.com/1.1/statuses/sample.json");
 
-		try {
-
-			consumer.sign(request);
-
-		} // try
-		catch (OAuthMessageSignerException e) {
-
-			e.printStackTrace();
-
-		} // catch
-		catch (OAuthExpectationFailedException e) {
-
-			e.printStackTrace();
-
-		} // catch
-		catch (OAuthCommunicationException e) {
-
-			e.printStackTrace();
-
-		} // catch
+        try {
+            consumer.sign(request);
+		}catch (OAuthMessageSignerException e) {e.printStackTrace();}
+        catch (OAuthExpectationFailedException e) {e.printStackTrace();}
+		catch (OAuthCommunicationException e) {e.printStackTrace();}
 
 		return request;
-
-	} // connect()
-
+	}
     private void printMyVector (Vector theVectorToPrint){
             System.out.println("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx");
             System.out.println(theVectorToPrint.elements());
 
     }
-	public static void main(String[] args) {
-		new TwitterFeed();
-	}
+//	public static void main(String[] args) {
+//		new TwitterFeed();
+//	}
 }
 
 /*
 Pour MongoDB
 - ouvrir cmd
-- repertoire ou est mongo
- > mongo
+- repertoire ou est mongo :
+C:\Users\PortStephen\Dropbox\Java\INTRANET PEDAGOGIQUE Licence Dim Promo 7.JAVADIM.complete\Twitter\mongodb-win32-x86_64-2008plus-2.4.8\mongodb-win32-x86_64-2008plus-2.4.8\bin
+ > mongod --dbpath ./myData
  > show dbs          on doit voir dim
  > use dim
  > show collections     on doit voir tweets
