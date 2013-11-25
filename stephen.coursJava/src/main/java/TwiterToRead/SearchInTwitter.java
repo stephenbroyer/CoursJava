@@ -29,14 +29,17 @@ public class SearchInTwitter {
         Scanner sc = new Scanner(System.in);
         myChoice = sc.nextInt();
          //myChoice=2;
-        System.out.println("Enter user name:");
-        String user = sc.next();
+        String user;
 
         switch(myChoice) {
-            case 1: myURL="https://api.twitter.com/1.1/statuses/user_timeline.json?screen_name="+user+"";
+            case 1: System.out.println("Enter user name:");
+                    user = sc.next();
+                    myURL="https://api.twitter.com/1.1/statuses/user_timeline.json?screen_name="+user+"";
                     break;
-            case 2: myURL="https://api.twitter.com/1.1/statuses/user_timeline.json?screen_name="+user+"";
-
+            case 2: System.out.println("Enter user name:");
+                    user = sc.next();
+                    myURL="https://api.twitter.com/1.1/statuses/user_timeline.json?screen_name="+user+"";
+                    break;
             case 3: myURL="https://api.twitter.com/1.1/geo/id/df51dec6f4ee2b2c.json";
                     break;
 

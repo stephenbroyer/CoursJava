@@ -1,6 +1,7 @@
 package TwiterToRead;
 
 import com.mongodb.BasicDBList;
+import com.mongodb.BasicDBObject;
 import com.mongodb.DBObject;
 import java.util.StringTokenizer;
 
@@ -16,6 +17,7 @@ public class ReadDBObject{
     /* ATTRIBUTS */
     private BasicDBList basicDBList ;
     private DBObject dbObject;
+    private BasicDBObject basicDBObject;
     private Object object;
     private String myString;
 
@@ -39,10 +41,9 @@ public class ReadDBObject{
             case 1: getTweet();
                     break;
             case 2: getUserDetails();
-                break;
+                    break;
             case 3: getCountryDetails();
                     break;
-            default:break;
         }
     }
 
@@ -50,12 +51,11 @@ public class ReadDBObject{
         try{
             basicDBList = (BasicDBList) dbObject;
             dbObject = (DBObject) basicDBList.get(0);
-            DBObject user =(DBObject) dbObject.get("user");
+            dbObject =(DBObject) dbObject.get("user");
 
-            //System.out.println("user: "+user);
-            System.out.println("name: "+user.get("name"));
-            System.out.println("location: "+user.get("location"));
-            System.out.println("url: "+user.get("url"));
+            System.out.println("name: "+dbObject.get("name"));
+            System.out.println("location: "+dbObject.get("location"));
+            System.out.println("url: "+dbObject.get("url"));
         }catch (Exception e){
             e.printStackTrace();
         }
@@ -71,7 +71,6 @@ public class ReadDBObject{
             dbObject = (DBObject) basicDBList.get(0);
             object =(Object) dbObject.get("text");
 
-            //System.out.println("user: "+user);
             System.out.println("Text: "+object);
 
         }catch (Exception e){

@@ -16,10 +16,8 @@ import org.xml.sax.InputSource;
 import org.xml.sax.SAXException;
 import org.xml.sax.XMLReader;
 import org.xml.sax.helpers.XMLReaderFactory;
-import teatcherXMLParser.Authentication;
 
-import java.io.*;
-import java.util.Vector;
+
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileInputStream;
