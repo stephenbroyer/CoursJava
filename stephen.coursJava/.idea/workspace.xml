@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="Réarrangement du code pour plus de lisibilité">
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/TwiterToRead/ReadDBObject.java" afterPath="$PROJECT_DIR$/src/main/java/TwiterToRead/ReadDBObject.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/TwiterToRead/SearchInTwitter.java" afterPath="$PROJECT_DIR$/src/main/java/TwiterToRead/SearchInTwitter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/TwiterToRead/TwitterConnect.java" afterPath="$PROJECT_DIR$/src/main/java/TwiterToRead/TwitterConnect.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="JavaFxApplication.iws" />
@@ -13,7 +12,7 @@
     <file path="/Controller.java" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1359381051202" ignored="false" />
     <file path="/sample.fxml" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1359381080865" ignored="false" />
     <file path="/MyApp.java" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1383306948524" ignored="false" />
-    <file path="/Dummy.txt" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1385319310180" ignored="false" />
+    <file path="/Dummy.txt" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1385366469715" ignored="false" />
     <file path="/fragment.java" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1383300282806" ignored="false" />
     <file path="/a.dummy" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1384765061725" ignored="false" />
     <file path="/AjoutDeContact.java" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1381597639151" ignored="false" />
@@ -38,10 +37,10 @@
     <file path="/TwitterFeed.java" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1385318311402" ignored="false" />
     <file path="/JsonParser.java" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1383561772096" ignored="false" />
     <file path="/A_JsonParser.java" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1383562263884" ignored="false" />
-    <file path="/SearchInTwitter.java" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1385327349332" ignored="false" />
+    <file path="/SearchInTwitter.java" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1385373996772" ignored="false" />
     <file path="/TwitterConnect.java" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1385319720484" ignored="false" />
     <file path="/dbObjectParser.java" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1384771402417" ignored="false" />
-    <file path="/ReadDBObject.java" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1385327468820" ignored="false" />
+    <file path="/ReadDBObject.java" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1385374766515" ignored="false" />
     <file path="/Authentication.java" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" time="1385317696123" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -108,13 +107,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SearchInTwitter.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="SearchInTwitter.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/TwiterToRead/SearchInTwitter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="58" column="45" selection-start="2028" selection-end="2028" vertical-scroll-proportion="-11.04">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="25" column="7" selection-start="661" selection-end="661" vertical-scroll-proportion="-0.41846153">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -131,10 +128,8 @@
       <file leaf-file-name="Authentication.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/teatcherXMLParser/Authentication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="9" selection-start="8" selection-end="9" vertical-scroll-proportion="-0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="0" column="9" selection-start="8" selection-end="9" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -142,16 +137,16 @@
       <file leaf-file-name="TwitterConnect.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/TwiterToRead/TwitterConnect.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="80" selection-start="1760" selection-end="1760" vertical-scroll-proportion="-15.28">
+            <state line="56" column="80" selection-start="1760" selection-end="1760" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReadDBObject.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="ReadDBObject.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/TwiterToRead/ReadDBObject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="61" column="12" selection-start="1764" selection-end="1764" vertical-scroll-proportion="1.7653631">
+            <state line="35" column="26" selection-start="860" selection-end="860" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -191,8 +186,8 @@
         <option value="$PROJECT_DIR$/src/main/java/TwiterToRead/Configuration.java" />
         <option value="$PROJECT_DIR$/src/main/java/TwiterToRead/TwitterFeed.java" />
         <option value="$PROJECT_DIR$/src/main/java/TwiterToRead/TwitterConnect.java" />
-        <option value="$PROJECT_DIR$/src/main/java/TwiterToRead/SearchInTwitter.java" />
         <option value="$PROJECT_DIR$/src/main/java/TwiterToRead/ReadDBObject.java" />
+        <option value="$PROJECT_DIR$/src/main/java/TwiterToRead/SearchInTwitter.java" />
       </list>
     </option>
   </component>
@@ -249,7 +244,6 @@
       <sortByType ProjectPane="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -464,6 +458,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -485,12 +480,12 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.41543028" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.splitter.details.proportions" value="0.41543028" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
@@ -619,6 +614,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -645,19 +653,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -842,7 +837,11 @@
       <created>1385319018240</created>
       <updated>1385319018240</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Don't understand how to use the datas??">
+      <created>1385327729094</created>
+      <updated>1385327729094</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -850,7 +849,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32961783" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32979593" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -865,8 +864,8 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24924242" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3265306" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26818183" sideWeight="0.611465" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.38853502" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26818183" sideWeight="0.57961786" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.42038217" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -921,7 +920,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Réarrangement du code pour plus de lisibilité" />
+    <option name="LAST_COMMIT_MESSAGE" value="Don't understand how to use the datas??" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -945,6 +944,7 @@
     <MESSAGE value="Fix bug from AddContactWithScanner&#10;because of Adresse adr = new Adresse();" />
     <MESSAGE value="Ré-arrangement du code pour plus de lisibilité" />
     <MESSAGE value="Réarrangement du code pour plus de lisibilité" />
+    <MESSAGE value="Don't understand how to use the datas??" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1027,6 +1027,20 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/teatcherXMLParser/Authentication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="9" selection-start="8" selection-end="9" vertical-scroll-proportion="-0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TwiterToRead/TwitterConnect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="80" selection-start="1760" selection-end="1760" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TwiterToRead/ReadDBObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="26" selection-start="860" selection-end="860" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1035,26 +1049,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/TwiterToRead/SearchInTwitter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="45" selection-start="2028" selection-end="2028" vertical-scroll-proportion="-11.04">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/TwiterToRead/TwitterConnect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="80" selection-start="1760" selection-end="1760" vertical-scroll-proportion="-15.28">
+        <state line="25" column="7" selection-start="661" selection-end="661" vertical-scroll-proportion="-0.41846153">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/TwiterToRead/ReadDBObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="12" selection-start="1764" selection-end="1764" vertical-scroll-proportion="1.7653631">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

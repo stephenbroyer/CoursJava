@@ -2,11 +2,8 @@ package TwiterToRead;
 
 import com.mongodb.BasicDBList;
 import com.mongodb.DBObject;
-import net.sf.json.JSONArray;
-import net.sf.json.JSONObject;
-
-import java.util.List;
 import java.util.StringTokenizer;
+
 
 /**
  * Created with IntelliJ IDEA.
@@ -17,56 +14,58 @@ import java.util.StringTokenizer;
  */
 public class ReadDBObject{
     /* AtTIBUTS */
-    private BasicDBList dbl ;
-    private JSONArray jsonArray;
-    private List<Object> jsonObjectList;
+    private BasicDBList basicDBList ;
+    private DBObject dbObject;
     private Object object;
     private String myString;
 
     /* CONSTRUCTEUR */
     public ReadDBObject(DBObject dbo){
-       jsonArray = JSONArray.fromObject(dbo);
+       dbObject = (DBObject) dbo;
+
     }
     /* METHODES */
     public void getFromMyChoice(int myChoice){
         switch (myChoice){
-            case 1: break;
-            case 2: getUserDetails();break;
-            case 3: break;
-            case 4: getCountryDetails(); break;
-            default:
+            case 1: getTweet();
+                    break;
+            case 2: getUserDetails();
+                break;
+            case 3: getCountryDetails();
+                    break;
+            default:break;
         }
     }
     public void getUserDetails(){
-        myString = jsonArray.toString();
-        StringTokenizer st = new StringTokenizer(myString, ",");
-        boolean isTrue=false;
-        while (st.hasMoreTokens()) {
-            String stringDetails = st.nextToken();
-            try{isTrue = stringDetails.substring(0,6).equals("\"user\"");}catch (Exception e){  }
+        try{
+            basicDBList = (BasicDBList) dbObject;
+            dbObject = (DBObject) basicDBList.get(0);
+            DBObject user =(DBObject) dbObject.get("user");
 
-            if (isTrue){
-              System.err.println(stringDetails);
-            }else{
-                System.out.println(stringDetails);
-            }
-
+            //System.out.println("user: "+user);
+            System.out.println("name: "+user.get("name"));
+            System.out.println("location: "+user.get("location"));
+            System.out.println("url: "+user.get("url"));
+        }catch (Exception e){
+            e.printStackTrace();
         }
     }
     public void getCountryDetails(){
-        myString = jsonArray.toString();
-        StringTokenizer st = new StringTokenizer(myString, ",");
-        boolean isTrue=false;
-        while (st.hasMoreTokens()) {
-            String stringDetails = st.nextToken();
-            try{isTrue = stringDetails.substring(0,9).equals("\"country\"");}catch (Exception e){  }
+        System.out.println("PAYS : "+dbObject.get("country"));
+    }
+    public void getTweet(){
+        try{
+            basicDBList = (BasicDBList) dbObject;
+            dbObject = (DBObject) basicDBList.get(0);
+            object =(Object) dbObject.get("text");
 
-            if (isTrue){
-                System.err.println(stringDetails);
-            }else{
-                System.out.println(stringDetails);
-            }
+            //System.out.println("user: "+user);
+            System.out.println("Text: "+object);
+
+        }catch (Exception e){
+            e.printStackTrace();
         }
     }
+
 
 }
