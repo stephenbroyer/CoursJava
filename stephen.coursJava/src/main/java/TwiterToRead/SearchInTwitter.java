@@ -15,7 +15,8 @@ public class SearchInTwitter {
     /* ATTRIBUTS */
       private String myURL = null;
       private TwitterConnect twitterConnect;
-      private int myChoice;
+      private DBObject myDatasGetted;
+    private int myChoice;
 
     /* CONSTRUCTEURS */
     public SearchInTwitter(){
@@ -42,14 +43,19 @@ public class SearchInTwitter {
             default:System.exit(0);break;
         }
         getDatas();
-
     }
     /* METHODES */
     public void getDatas(){
         twitterConnect = new TwitterConnect(myURL);
-        DBObject myDatasGetted = (DBObject)twitterConnect.returnDatasGetted();
+        myDatasGetted = (DBObject)twitterConnect.returnDatasGetted();
         ReadDBObject readDBObject = new ReadDBObject(myDatasGetted);
         readDBObject.getFromMyChoice(myChoice);
+    }
+    public void setURL(String url){
+        myURL = url;
+    }
+    public Class getClassOfDatats (){
+        return myDatasGetted.getClass();
     }
 
 /* ***************** MAIN ************************ */

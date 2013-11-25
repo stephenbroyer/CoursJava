@@ -46,6 +46,11 @@ public class TwitterConnect {
     public DBObject datasGetted;
 
     /* CONSTRUCTEUR */
+
+    /**
+     *
+     * @param myURL
+     */
     public TwitterConnect(String myURL) {
         Authentication app = getConnectionData("app.xml");
         mongoConnect();
@@ -53,14 +58,28 @@ public class TwitterConnect {
         retrieve(request);
     }
     /* METHODES */
+
+    /**
+     *
+     * @return
+     */
     public DBObject returnDatasGetted(){
             return datasGetted;
         }
+
+    /**
+     *
+     */
     private void mongoConnect() {
         try {   m = new Mongo( Configuration.mongo_location , Configuration.mongo_port );
                 db = m.getDB(Configuration.mongo_database);
         } catch (Exception e) {e.printStackTrace(); }
     }
+
+    /**
+     *
+     * @param request
+     */
     private void retrieve(HttpGet request) {
         String in;
         try {   HttpClient client = new DefaultHttpClient();
@@ -77,6 +96,12 @@ public class TwitterConnect {
                 }
             }catch (Exception e) {e.printStackTrace();}
         }
+
+    /**
+     *
+     * @param stFile
+     * @return
+     */
     private Authentication getConnectionData(String stFile) {
         Authentication sr = null;
         try {
@@ -101,6 +126,13 @@ public class TwitterConnect {
 
         return sr;
     }
+
+    /**
+     *
+     * @param app
+     * @param myURL
+     * @return
+     */
     private HttpGet connect(Authentication app, String myURL) {
         OAuthConsumer consumer = new CommonsHttpOAuthConsumer(app.getConsumerKey(), app.getConsumerSecret());
         consumer.setTokenWithSecret(app.getAccessToken(), app.getAccessSecret());

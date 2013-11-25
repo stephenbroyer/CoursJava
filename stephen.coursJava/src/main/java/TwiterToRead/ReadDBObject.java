@@ -13,18 +13,27 @@ import java.util.StringTokenizer;
  * To change this template use File | Settings | File Templates.
  */
 public class ReadDBObject{
-    /* AtTIBUTS */
+    /* ATTRIBUTS */
     private BasicDBList basicDBList ;
     private DBObject dbObject;
     private Object object;
     private String myString;
 
     /* CONSTRUCTEUR */
+    /**
+     *
+     * @param dbo
+     */
     public ReadDBObject(DBObject dbo){
        dbObject = (DBObject) dbo;
 
     }
+
     /* METHODES */
+    /**
+     *
+     * @param myChoice
+     */
     public void getFromMyChoice(int myChoice){
         switch (myChoice){
             case 1: getTweet();
@@ -36,6 +45,7 @@ public class ReadDBObject{
             default:break;
         }
     }
+
     public void getUserDetails(){
         try{
             basicDBList = (BasicDBList) dbObject;
@@ -50,9 +60,11 @@ public class ReadDBObject{
             e.printStackTrace();
         }
     }
+
     public void getCountryDetails(){
         System.out.println("PAYS : "+dbObject.get("country"));
     }
+
     public void getTweet(){
         try{
             basicDBList = (BasicDBList) dbObject;
@@ -66,6 +78,4 @@ public class ReadDBObject{
             e.printStackTrace();
         }
     }
-
-
 }

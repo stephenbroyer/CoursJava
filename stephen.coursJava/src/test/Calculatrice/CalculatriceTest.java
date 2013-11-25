@@ -16,20 +16,23 @@ public class CalculatriceTest {
 
     private Calculatrice myC;
     @Before
-    public void setUp() throws Exception {
+    public void setUp(){
        myC = new Calculatrice();
     }
 
     @After
-    public void tearDown() throws Exception {
+    public void tearDown(){
 
     }
 
     @Test
-    public void TestCalc() throws Exception {
-        int intVerification =  myC.doCalc(5,4,'+');
-        int intHoped = 9;
-        Assert.assertTrue(intVerification == intHoped);
-
+    public void TestCalc(){
+        try{
+            int intVerification =  myC.doCalc(5,4,'+');
+            int intHoped = 9;
+            Assert.assertTrue(intVerification == intHoped);
+        }catch (Exception e){
+            System.err.println("LE TEST CALCULATRICE RENVOIE UNE ERREUR POUR L'ADDITION");
+            e.printStackTrace();}
     }
 }
