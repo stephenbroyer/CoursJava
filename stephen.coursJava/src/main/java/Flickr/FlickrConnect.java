@@ -1,6 +1,5 @@
 package Flickr;
 
-import myXmlParser.SimpleSaxParser;
 import org.xml.sax.SAXException;
 
 import javax.swing.*;

@@ -1,7 +1,47 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<geo>
-	<location>London</location>
-	<lat>51.5085300</lat>
-	<lon>-0.1257400</lon>
-</geo>
+<?xml version="1.0" ?>
+<document>
+  <towns>
+    <town id="1">
+      <location>Paris</location>
+      <lat>60</lat>
+      <lon>66</lon>
+      <countryId></countryId>
+    </town>
+    <town id="2">
+      <location>Paris</location>
+      <lat>60</lat>
+      <lon>66</lon>
+      <countryId></countryId>
+    </town>
+    <town id="3">
+      <location>Paris</location>
+      <lat>60</lat>
+      <lon>66</lon>
+      <countryId></countryId>
+    </town>
+    <town id="4">
+      <location>Paris</location>
+      <lat>60</lat>
+      <lon>66</lon>
+      <countryId></countryId>
+    </town>
+    <town id="5">
+      <location>Paris</location>
+      <lat>60</lat>
+      <lon>66</lon>
+      <countryId></countryId>
+    </town>
+    <town id="6">
+      <location>Paris</location>
+      <lat>60</lat>
+      <lon>66</lon>
+      <countryId></countryId>
+    </town>
+    <town id="7">
+      <location>New-York</location>
+      <lat>70</lat>
+      <lon>77</lon>
+      <countryId>7</countryId>
+    </town>
+  </towns>
+</document>

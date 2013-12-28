@@ -23,13 +23,15 @@ import org.w3c.dom.Element;
  */
 public class GeoWriter {
 
-    public GeoWriter() {
+    public GeoWriter(String ville, String lat, String lon) {
 
         try {
 
             DocumentBuilderFactory docFactory = DocumentBuilderFactory.newInstance();
             DocumentBuilder docBuilder = docFactory.newDocumentBuilder();
 
+          Document geoDoc = docBuilder.newDocument();
+          ;
             // root elements
             Document doc = docBuilder.newDocument();
             Element rootElement = doc.createElement("company");
