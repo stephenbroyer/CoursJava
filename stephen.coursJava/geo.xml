@@ -1,43 +1,43 @@
 <?xml version="1.0" ?>
 <document>
   <towns>
+    <town id="0">
+      <location>London</location>
+      <lat>10</lat>
+      <lon>11</lon>
+      <countryId>1</countryId>
+    </town>
     <town id="1">
-      <location>Paris</location>
-      <lat>60</lat>
-      <lon>66</lon>
-      <countryId></countryId>
+      <location>Madrid</location>
+      <lat>20</lat>
+      <lon>22</lon>
+      <countryId>2</countryId>
     </town>
     <town id="2">
-      <location>Paris</location>
-      <lat>60</lat>
-      <lon>66</lon>
-      <countryId></countryId>
+      <location>Tokyo</location>
+      <lat>30</lat>
+      <lon>33</lon>
+      <countryId>3</countryId>
     </town>
     <town id="3">
-      <location>Paris</location>
-      <lat>60</lat>
-      <lon>66</lon>
-      <countryId></countryId>
+      <location>Berlin</location>
+      <lat>40</lat>
+      <lon>44</lon>
+      <countryId>4</countryId>
     </town>
     <town id="4">
-      <location>Paris</location>
-      <lat>60</lat>
-      <lon>66</lon>
-      <countryId></countryId>
+      <location>Moscou</location>
+      <lat>50</lat>
+      <lon>55</lon>
+      <countryId>5</countryId>
     </town>
     <town id="5">
       <location>Paris</location>
       <lat>60</lat>
       <lon>66</lon>
-      <countryId></countryId>
+      <countryId>6</countryId>
     </town>
     <town id="6">
-      <location>Paris</location>
-      <lat>60</lat>
-      <lon>66</lon>
-      <countryId></countryId>
-    </town>
-    <town id="7">
       <location>New-York</location>
       <lat>70</lat>
       <lon>77</lon>

@@ -10,24 +10,26 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class MyCreator{
+public class MyCreator {
 
-  private  List<Town> listTown;
-  public MyCreator(){
+  private List<Town> listTown;
+
+  public MyCreator() {
     listTown = new ArrayList<Town>();
-    listTown.add(new Town("London","10","11","1"));
-    listTown.add(new Town("Madrid","20","22","2"));
-    listTown.add(new Town("Tokyo","30","33","3"));
-    listTown.add(new Town("Berlin","40","44","4"));
-    listTown.add(new Town("Moscou","50","55","5"));
-    listTown.add(new Town("Paris","60","66","6"));
+    listTown.add(new Town("London", "10", "11", "1"));
+    listTown.add(new Town("Madrid", "20", "22", "2"));
+    listTown.add(new Town("Tokyo", "30", "33", "3"));
+    listTown.add(new Town("Berlin", "40", "44", "4"));
+    listTown.add(new Town("Moscou", "50", "55", "5"));
+    listTown.add(new Town("Paris", "60", "66", "6"));
   }
-  public MyCreator(List<Town> townList){
+
+  public MyCreator(List<Town> townList) {
     this.listTown = townList;
   }
 
-  public boolean write(String file){
-    XMLOutputFactory factory      = XMLOutputFactory.newInstance();
+  public void write(String file) {
+    XMLOutputFactory factory = XMLOutputFactory.newInstance();
 
     try {
       XMLStreamWriter writer = factory.createXMLStreamWriter(new FileWriter(file));
@@ -44,9 +46,9 @@ public class MyCreator{
 
       /* FOR EACH <town> ADD  AN ID IN TOWN ELEMENT AND ADD <location> <lat> <lon> <countryID> */
       /* DON'T FORGET TO CLOSE EACH ELEMENT */
-      for(int indexTown=0;indexTown<listTown.size();indexTown++){
+      for (int indexTown = 0; indexTown < listTown.size(); indexTown++) {
         writer.writeStartElement("town");
-        writer.writeAttribute("id", String.valueOf(indexTown + 1));
+        writer.writeAttribute("id", String.valueOf(indexTown));
 
         writer.writeStartElement("location");
         writer.writeCharacters(listTown.get(indexTown).getLocation());
@@ -67,7 +69,7 @@ public class MyCreator{
         writer.writeEndElement();
 
 
-       }
+      }
       /* DON'T FORGET TO CLOSE EACH ELEMENT AND DOCUMENT  */
       writer.writeEndElement();
       writer.writeEndElement();
@@ -78,13 +80,10 @@ public class MyCreator{
       /* CLOSE THE WRITER !! */
       writer.close();
 
-      return true;
-
     } catch (XMLStreamException e) {
-      throw new MyException("XMLStreamException",e);
+      throw new MyException("XMLStreamException", e);
     } catch (IOException e) {
-      throw new MyException("IOException",e);
-
+      throw new MyException("IOException", e);
     }
   }
 }

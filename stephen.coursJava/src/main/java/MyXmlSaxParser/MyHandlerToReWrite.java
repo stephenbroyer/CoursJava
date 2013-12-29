@@ -10,22 +10,24 @@ import java.util.List;
 public class MyHandlerToReWrite extends DefaultHandler {
 
 
+  boolean boolLocation = false, boolLat = false, boolLon = false, boolContryId = false;
   private List<Town> townList;
-  private Town town;
-  boolean boolLocation = false , boolLat = false  ,boolLon = false , boolContryId=false;
-
+  private int id;
 
   public MyHandlerToReWrite() {
     super();
     townList = new ArrayList<Town>();
-    town = new Town();
-  }
-  public void startDocument(){
   }
 
+  public void startDocument() {
+  }
 
   public void startElement(String uri, String localName, String qName,
                            Attributes attributes) throws SAXException {
+    if (qName.equals("town")) {
+      this.id = Integer.valueOf(attributes.getValue(0));
+      townList.add(id, new Town());
+    }
     if (qName.equalsIgnoreCase("location")) {
       boolLocation = true;
     }
@@ -41,44 +43,32 @@ public class MyHandlerToReWrite extends DefaultHandler {
   }
 
   public void endElement(String uri, String localName, String qName) throws SAXException {
-
   }
 
   public void characters(char ch[], int start, int length) throws SAXException {
     if (boolLocation) {
-      String location =  new String(ch, start, length);
-      //System.err.println(location);
-      town.setLocation(location);
+      String location = new String(ch, start, length);
+      townList.get(id).setLocation(location);
       boolLocation = false;
     }
     if (boolLat) {
-      String lat =  new String(ch, start, length);
-      town.setLat(lat);
+      String lat = new String(ch, start, length);
+      townList.get(id).setLat(lat);
       boolLat = false;
     }
     if (boolLon) {
       String lon = new String(ch, start, length);
-      town.setLon(lon);
+      townList.get(id).setLon(lon);
       boolLon = false;
     }
-    if(boolContryId){
-      String countryId = new String(ch,start,length);
+    if (boolContryId) {
+      String countryId = new String(ch, start, length);
       boolContryId = false;
-      System.out.println("before : " +town.getLocation()+"  "+town.getLat());
-
-      townList.add(town);
-      for(int i=0;i<townList.size();i++){
-        System.out.println("after"+townList.get(i).getLocation());
-      }
+      townList.get(id).setCountryId(countryId);
     }
   }
 
-  public List<Town> getTownList (){
-    /*
-    for(int i=0;i<townList.size();i++){
-      System.err.println(townList.get(i).getLocation());
-
-    } */
+  public List<Town> getTownList() {
     return townList;
   }
 }
